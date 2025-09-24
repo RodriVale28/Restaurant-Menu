@@ -1,5 +1,5 @@
 #Tito's Food Bowl is a fictional restaurant owned by my pug, Tito. This is my first Web Development project, created with **HTML**.
-##Feauures
+##Features
   -basic HTML formatting
   -basic styling for the background color and centering the text for the website
   -embedded images of the "menu" items, in this case, my dog.
