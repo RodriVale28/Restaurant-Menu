@@ -1,0 +1,86 @@
+<!-- Properly structured file, the !DOCTYPE, head, and body tags -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tito's FoodBowl</title>
+        <!-- using style ti edit the text to be at center, edit the bakground color -->
+        <style> 
+            #menu {
+                text-align: center;
+            }
+            #order-form {
+                text-align: center;
+             }
+
+             header {
+                text-align: center;
+             }
+
+             header{
+                background-color: rgb(134, 110, 157);
+             }
+
+             form{
+                background-color: rgb(134, 110, 157);
+             }
+
+             main{
+                background-color: rgb(134, 110, 157);
+             }
+        </style>
+    </head>
+<!-- body that include a header, main and footer tag -->
+    <body>
+        <!-- header for the web title and main image -->
+        <header> 
+            <img id="header-img" src="C:\Users\valer\OneDrive\Desktop\WEB DEV\Restaurant Menu\Images-Res\20250809_171229.jpg" width="200" height="250">
+            <h1>Tito's FoodBowl</h1>
+            <!-- navegation for menu and ordering -->
+            <nav>
+                <ul>
+                    <li><a href="#menu"><b>Menu</b></a></li>
+                    <li><a href="#oder-form"><b>Order</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- main with detailed menu, which includes sections and articles.
+         articles contain image, plate description and price -->
+        <main>
+            <section id="menu"><h2>Our Menu</h2>
+            <article>
+                <img src="C:\Users\valer\OneDrive\Desktop\WEB DEV\Restaurant Menu\Images-Res\IMG_20250105_084541.jpg">
+                <h3>Tito's Daily</h3>
+                <p>Tasty Dog Kibble made with chicken and rice. Perfect for a daily meal. <i> $12.20</i></p>
+            </article>
+            
+            <article>
+                <img src="C:\Users\valer\OneDrive\Desktop\WEB DEV\Restaurant Menu\Images-Res\20241213_162514.jpg" width="150" height="250">
+                <h3>Pug Builder</h3>
+                <p>Smooth and tasty peanut butter! A perfect post workout snack! <i> $6.99</i></p>
+            </article>
+            
+            <article>
+                <img src="C:\Users\valer\OneDrive\Desktop\WEB DEV\Restaurant Menu\Images-Res\20250708_215726.jpg" width="150" height="300">
+                <h3>Tito's Choice</h3>
+                <p>Chef's Choice. A Twist on a classic kibble combined with a tropical clementine touch! <i> $18.50</i></p>
+            </article>
+            </section>
+            <!-- form section, with name, contact info, number inputs for each of the menu items and text are for comments-->
+            <section id="order-form"><h2>Order Your Order Here</h2>
+                <form>
+                    <label>Name: <input type="text"></label><br>
+                    <label>Phone Number: <input type="text"></label><br>
+                    <label>Tito's Daily <input type="number" min="0"></label><br>
+                    <label>Pug Builder<input type="number" min="0"></label><br>
+                    <label>Tito's Choice<input type="number" min="0"></label><br>
+                    <label>Comments or Special Requests <br>
+                        <textarea id="data-entry" rows="7" cols="42"  placeholder="Special Requests" maxlength="250"></textarea>
+                    </label>
+                    <label>Go to Check-Out <input type="submit"></label>
+                </form>
+            </section>
+            <!-- footer section-->
+        </main>
+        <footer><p>Made with Love, for my Tito🐶❤️</p></footer>
+    </body>
+</html>
